@@ -10,11 +10,6 @@ const Popular = React.lazy(() => import('./components/Popular'))
 const Battle = React.lazy(() => import('./components/Battle'))
 const Results = React.lazy(() => import('./components/Results'))
 
-//Component
-//.Can have a state that it manages
-//.Can have a Lifecycle e.g fetching data from API
-//.Can have a UI (called render)
-//This creates our component....
 class App extends React.Component {
 	state = {
 		theme: 'light',
